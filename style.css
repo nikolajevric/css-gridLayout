@@ -1,0 +1,14 @@
+.testimonial-grid{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 20px;
+}
+.grid-col-span-2{
+    grid-column: span 2;
+}
+.first-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+}
